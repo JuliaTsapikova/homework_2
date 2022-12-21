@@ -3,8 +3,8 @@
 
 int GetSecondDigit(int number)
 {
-    int number1 = number % 100;
-    int number2 = number1 / 10;
+    int number1 = number / 10;
+    int number2 = number1 % 10;
     return number2;
 }
 
